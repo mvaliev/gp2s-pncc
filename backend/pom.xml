@@ -274,12 +274,12 @@
                         <id>default</id>
                         <goals>
                             <goal>build</goal>
-                            <goal>push</goal>
+<!--                            <goal>push</goal>-->
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <repository>arohou/gp2s</repository>
+                    <repository>marat/gp2s</repository>
                     <buildArgs>
                         <JAR_FILE>target/${project.artifactId}-${project.version}.jar</JAR_FILE>
                     </buildArgs>
