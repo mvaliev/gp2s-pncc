@@ -46,7 +46,7 @@ services:
       - gp2snet
   gp2s-service:
     container_name: gp2s-service
-    image: arohou/gp2s
+    image: marat/gp2s
     environment:
       JAVA_OPTS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=1 -XshowSettings:vm
       MYSQL_HOST: mysql
