@@ -279,7 +279,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <repository>marat/gp2s</repository>
+<!--                    <repository>marat/gp2s</repository>-->
+                    <repository>${env.GP2S_IMAGE}</repository>
                     <buildArgs>
                         <JAR_FILE>target/${project.artifactId}-${project.version}.jar</JAR_FILE>
                     </buildArgs>
