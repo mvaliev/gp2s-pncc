@@ -3,4 +3,4 @@
 
 #export GP2S_IMAGE=marat/gp2s-dev
 export GP2S_IMAGE="marat/gp2s-dev:latest"
-docker-compose up --abort-on-container-exit
+docker-compose up --abort-on-container-exit --build
